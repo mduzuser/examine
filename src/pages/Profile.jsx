@@ -135,6 +135,10 @@ function Profile() {
                 />
               </div>
             </div>
+
+            <div className="form-btn">
+              <button>Save Setting</button>
+            </div>
           </Form>
         </div>
       </div>

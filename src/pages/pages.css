@@ -1400,6 +1400,27 @@ span {
   margin-bottom: 10px;
 }
 
+.form-btn {
+  width: 100%;
+  text-align: right;
+}
+
+.form-btn button {
+  width: 202px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: var(--color-primary);
+  color: var(--color-third);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.form-btn button:hover {
+  opacity: 90%;
+  scale: 0.99;
+}
+
 @media (max-width: 576px) {
   .profile-container {
     display: block;
@@ -1439,6 +1460,10 @@ span {
   }
 
   .other-info div {
+    width: 100%;
+  }
+
+  .form-btn button {
     width: 100%;
   }
 }
