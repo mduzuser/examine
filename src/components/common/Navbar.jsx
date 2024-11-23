@@ -48,9 +48,9 @@ function Navbar() {
         <div className="navbar-body">
           <div className="container ">
             <div className="navbar-body-container">
-              <figure className="navbar-body-logo">
+              <Link to={"/profile"} className="navbar-body-logo">
                 <img src="./image/logo (3).png" alt="logo" />
-              </figure>
+              </Link>
 
               <ul className="navbar-body-pages">
                 <NavLinks />
